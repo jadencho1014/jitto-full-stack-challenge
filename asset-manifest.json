@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/jitto-full-stack-challenge/static/css/main.b0665cdf.css",
-    "main.js": "/jitto-full-stack-challenge/static/js/main.f73010d5.js",
+    "main.css": "/jitto-full-stack-challenge/static/css/main.7948270e.css",
+    "main.js": "/jitto-full-stack-challenge/static/js/main.c362f105.js",
     "index.html": "/jitto-full-stack-challenge/index.html",
-    "main.b0665cdf.css.map": "/jitto-full-stack-challenge/static/css/main.b0665cdf.css.map",
-    "main.f73010d5.js.map": "/jitto-full-stack-challenge/static/js/main.f73010d5.js.map"
+    "main.7948270e.css.map": "/jitto-full-stack-challenge/static/css/main.7948270e.css.map",
+    "main.c362f105.js.map": "/jitto-full-stack-challenge/static/js/main.c362f105.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0665cdf.css",
-    "static/js/main.f73010d5.js"
+    "static/css/main.7948270e.css",
+    "static/js/main.c362f105.js"
   ]
 }
