@@ -1,0 +1,46 @@
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 400px;
+  width: 90%;
+  margin: 90px auto;
+}
+
+.bar {
+  flex: 1;
+  background-color: #f68dc8;
+  border: 1px solid #d92a9c;
+  position: relative;
+  height: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bar.hovered {
+  background-color: rgb(255, 82, 157);
+}
+
+.bar-label {
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  bottom: -50px;
+  transform: translateX(-50%);
+}
+
+.bar-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.bar.animate {
+  height: 100%;
+  transition: height 1s;
+}
