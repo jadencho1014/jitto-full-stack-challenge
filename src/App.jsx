@@ -10,6 +10,12 @@ function App() {
     <div className="App">
       <h1>Bar Chart</h1>
       <BarChart data={data} labels={labels} />
+      <h2>How to use the Bar Chart component:</h2>
+      <ol>
+        <li>Import the BarChart component from './BarChart'.</li>
+        <li>Pass your data and labels as props to the BarChart component.</li>
+        <li>Render the BarChart component within your application.</li>
+      </ol>
     </div>
   );
 }
